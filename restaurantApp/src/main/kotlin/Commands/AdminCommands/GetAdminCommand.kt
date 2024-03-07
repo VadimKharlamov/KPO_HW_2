@@ -40,7 +40,7 @@ class GetAdminCommand : Command {
                 program.showAdminMenu()
                 val input = readln()
                 println()
-                if (input == "6") {
+                if (input == "7") {
                     break
                 }
                 program.invoker.executeCommand("$input-AdminOption", program)
