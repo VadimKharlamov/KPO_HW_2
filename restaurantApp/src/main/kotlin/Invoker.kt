@@ -19,9 +19,10 @@ class Invoker {
         map["1-Review"] = MakeReviewCommand()
         map["1-AdminOption"] = PrintAllDishes()
         map["2-AdminOption"] = AddDishCommand()
-        map["3-AdminOption"] = DeleteDishCommand()
-        map["4-AdminOption"] = CheckIncomeCommand()
-        map["5-AdminOption"] = GetStatisticCommand()
+        map["3-AdminOption"] = ChangeMenuCommand()
+        map["4-AdminOption"] = DeleteDishCommand()
+        map["5-AdminOption"] = CheckIncomeCommand()
+        map["6-AdminOption"] = GetStatisticCommand()
     }
 
     fun executeCommand(request: String, program: ConsoleUI) {

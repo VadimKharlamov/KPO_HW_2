@@ -16,10 +16,11 @@ class ConsoleUI() {
         println("Admin. Choose an option:")
         println("   1. Show information about dishes")
         println("   2. Add dish")
-        println("   3. Delete dish")
-        println("   4. Check income")
-        println("   5. Get statistic")
-        println("   6. Exit.")
+        println("   3. Change dish")
+        println("   4. Delete dish")
+        println("   5. Check income")
+        println("   6. Get statistic")
+        println("   7. Exit.")
         print("\nEnter you option: ")
     }
 
@@ -66,9 +67,17 @@ class ConsoleUI() {
 
     fun showStatisticMenu() {
         println("What type of statistic you want?")
-        println("1. The number of orders")
-        println("2. Average order rating")
-        println("3. Most popular dish")
-        println("4. Exit")
+        println("   1. The number of orders")
+        println("   2. Average order rating")
+        println("   3. Most popular dish")
+        println("   4. Exit")
+    }
+
+    fun showChangingOption() {
+        println("What part you want to change?")
+        println("   1. Change amount")
+        println("   2. Change price")
+        println("   3. Change cooking time")
+        println("   4. Exit")
     }
 }
